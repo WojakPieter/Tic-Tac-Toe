@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<script src="script.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="inf">Ruch: Kółko</div>
+			<div id="board">
+				<div class="square top left" onclick="zmien('.top', '.left')"></div>
+				<div class="square top middle" onclick="zmien('.top', '.middle')"></div>
+				<div class="square top right" onclick="zmien('.top', '.right')"></div>
+				<div class="square sr left" onclick="zmien('.sr', '.left')"></div>
+				<div class="square sr middle" onclick="zmien('.sr', '.middle')"></div>
+				<div class="square sr right" onclick="zmien('.sr', '.right')"></div>
+				<div class="square bottom left" onclick="zmien('.bottom', '.left')"></div>
+				<div class="square bottom middle" onclick="zmien('.bottom', '.middle')"></div>
+				<div class="square bottom right" onclick="zmien('.bottom', '.right')"></div>
+			</div>
+		</div>
+	</body>
+</hmtl>
